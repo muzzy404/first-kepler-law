@@ -1,4 +1,4 @@
-# Kepler's laws of planetary motion / 
+# Kepler's laws of planetary motion
 
 In astronomy, Kepler's laws of planetary motion are three scientific laws describing the motion of planets around the Sun.
 1. The orbit of a planet is an ellipse with the Sun at one of the two foci.
