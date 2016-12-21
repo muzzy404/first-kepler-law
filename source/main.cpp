@@ -50,11 +50,11 @@ int main()
       sf::Event event;
       while (window.pollEvent(event))
       {
-      if (event.type == sf::Event::Closed)
-      {
-        window.close();
+        if (event.type == sf::Event::Closed)
+        {
+          window.close();
+        }
       }
-    }
 
       window.clear();
       window.draw(backGround);
@@ -69,13 +69,13 @@ int main()
       // lines from satellite to orbit focuses
       sf::Vertex line1[] =
       {
-      sf::Vertex(sun.getSunFocus(),     sf::Color::Yellow),
-      sf::Vertex(trajectory[iteration], sf::Color::Magenta),
+        sf::Vertex(sun.getSunFocus(),     sf::Color::Yellow),
+        sf::Vertex(trajectory[iteration], sf::Color::Magenta),
       };
       sf::Vertex line2[] =
       {
-      sf::Vertex(sun.getSecondFocus(),  sf::Color::Red),
-      sf::Vertex(trajectory[iteration], sf::Color::Cyan),
+        sf::Vertex(sun.getSecondFocus(),  sf::Color::Red),
+        sf::Vertex(trajectory[iteration], sf::Color::Cyan),
       };
       window.draw(line1, 2, sf::Lines);
       window.draw(line2, 2, sf::Lines);
