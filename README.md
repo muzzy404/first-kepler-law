@@ -13,6 +13,16 @@ P.S. This project was created in 2 days and visualizes only the first law
 
 ***
 
+# Screenshots
+
+![ellipse](https://cldup.com/HqbKLfxhkr.PNG)
+
+![ellipse](https://cldup.com/cmBmcEsIWa.PNG)
+
+![circle](https://cldup.com/L_XIfXjfjB.PNG)
+
+***
+
 # Законы Кеплера
 
 Законы Кеплера — три эмпирических соотношения, интуитивно подобранных Иоганном Кеплером на основе анализа астрономических наблюдений Тихо Браге. Описывают идеализированную гелиоцентрическую орбиту планеты.
